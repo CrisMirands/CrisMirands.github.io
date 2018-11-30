@@ -1,8 +1,8 @@
 body
 {
 	background-color:#3d231b;
-	background-image: url("https://github.com/CrisMirands/crismirands.github.io/blob/master/_DSC0570.jpg?raw=true");
-	background-size: cover;
+	background-image: url("images/bg.jpg");
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
 
@@ -15,7 +15,7 @@ body
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(153, 153, 102, 0.8);
+  background-color: rgba(71, 73, 105, 0.8);
 }
 
 .cta .cta-inner {
