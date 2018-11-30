@@ -6,10 +6,14 @@ body
 	background-repeat: no-repeat;
 }
 
+a{
+ cursor:pointer;
+ }
+
 .sect
 {
-	margin-top: 5px;
-	margin-bottom: 5px ;
+	/*margin-top: 5px;
+	margin-bottom: 5px ;*/
 }
 
 .cta {
@@ -28,7 +32,7 @@ body
 .cta .cta-inner:before {
   border-radius: 0.5rem;
   content: '';
-  position: absolute;
+  /*position: absolute;*/
   top: -0.5rem;
   bottom: -0.5rem;
   left: -0.5rem;
@@ -123,3 +127,4 @@ body
 .footer {
   padding: 5rem;
 }
+
