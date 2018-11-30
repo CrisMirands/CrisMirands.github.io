@@ -75,6 +75,18 @@ body
     margin-bottom: 8rem;
     border-radius: 25px;
   }
+
+  @media (min-width: 992px) {
+  .intro .about-img {
+    width: 50%;
+    float: right;
+    margin-bottom: 8rem;
+    border-radius: 25px;
+
+
+  }
+
+
   .intro .intro-text {
     left: 0;
     width: 60%;
@@ -89,6 +101,18 @@ body
 
   }
 }
+
+  @media (min-width: 992px) {
+  .img-proj {
+    
+    float: right;
+    margin-top: 15%;
+    margin-bottom: 15%
+    border-radius: 25px;
+
+
+  }
+
 
 .navbar
 {

@@ -1,0 +1,100 @@
+body
+{
+  background-color: #686b6c;
+  margin:0px;
+
+  padding:0px;
+
+}
+
+
+.visibledevice {display:none;}
+.visibledesktop {display:display;}
+
+@media (max-width : 320px) {
+    .visibledevice {display:block;}
+    .visibledesktop {display:none;}
+}
+
+.navbar
+{
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 8rem;
+
+}
+
+
+
+
+.container 
+{
+
+margin:0;
+
+padding:0;
+}
+
+.about
+{
+
+margin:0;
+
+padding:0;
+
+}
+.right
+{
+  width:38%;
+  float: right;
+  position: fixed;
+  margin-left: 0rem;
+  height: 100%;
+  background-image: url('images/_MG_7489.JPG');
+  background-size: 100% 100%;
+  border-style: solid;
+  border-color: #a09c9c;
+  background-repeat: no-repeat;
+}
+
+.cover
+{
+  width:100%;
+  float: center;
+  position: fixed;
+  height: 100%;
+
+  
+  background-image: url('images/DSC_0704.JPG');
+  background-size: 100% 100%;
+  border-style: solid;
+  border-color: #a09c9c;
+  background-repeat: no-repeat;
+
+}
+
+.right_mob
+{
+
+}
+
+.left
+{
+
+  margin-top: 10%;
+  margin-left: 62%;
+  margin-right: -20%;
+
+  float: left;
+ 
+  height: 100%;
+}
+
+.left_mob
+{
+
+}
+
+.footer {
+  padding: 5rem;
+  float: left;
+}
